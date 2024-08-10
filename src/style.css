@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: auto;
+  background-color: antiquewhite;
+}
+.container {
+  background-color: cadetblue;
+  border-radius: 10px;
+  width: 800px;
+  height: 300px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.timing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 80px;
+}
+.hour,
+.mint,
+.sec {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.time-show {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.hour_show,
+.mint_show,
+.sec_show {
+  margin: 10px;
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  margin:10px
+}
+.start{
+    height: 40px;
+    width: 60px;
+    background-color: green;
+    border-radius: 5px;
+}
+.pause{
+    height: 40px;
+    width: 60px;
+    background-color: yellow;
+    border-radius: 5px;
+    display: none;
+}
+
+.reset{
+    height: 40px;
+    width: 60px;
+    background-color: red;
+    border-radius: 5px;
+}
