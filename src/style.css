@@ -60,6 +60,7 @@ body {
     width: 60px;
     background-color: green;
     border-radius: 5px;
+    color:white;
 }
 .pause{
     height: 40px;
@@ -67,6 +68,7 @@ body {
     background-color: yellow;
     border-radius: 5px;
     display: none;
+    color:white;
 }
 
 .reset{
@@ -74,4 +76,5 @@ body {
     width: 60px;
     background-color: red;
     border-radius: 5px;
+    color:white;
 }
